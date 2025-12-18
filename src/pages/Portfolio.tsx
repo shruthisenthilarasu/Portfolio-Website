@@ -1,5 +1,4 @@
 import SectionHeader from '../components/SectionHeader'
-import ArticlePreview from '../components/ArticlePreview'
 
 // Project data - in a real app, this might come from a CMS or API
 const projects = [
