@@ -75,6 +75,19 @@ export default function Resume() {
           <div className="space-y-6">
             <div className="border-l-4 border-gray-200 pl-6">
               <h3 className="font-sans text-xl font-semibold text-gray-900 mb-1">
+                RR Digital Media
+              </h3>
+              <p className="font-sans text-sm text-gray-500 mb-2">Web Developer (Freelance) • December 2025 - Present</p>
+              <ul className="font-serif text-gray-700 leading-[1.7] space-y-2 list-none pl-0">
+                <li>• Collaborate with a freelance digital agency to support client web projects, handling front-end development tasks, site updates, and last-mile feature requests.</li>
+                <li>• Build and customize client websites using Framer, Squarespace, and custom HTML/CSS, applying JavaScript for interactive behavior and animations.</li>
+                <li>• Assist with rapid turnaround client requests, bug fixes, and UI refinements to help projects reach completion under tight timelines.</li>
+                <li>• Support no-code and low-code workflows by configuring databases and automations using tools like Airtable and Softr.</li>
+                <li>• Contribute to internal process improvements, including client communication workflows and task handoff systems.</li>
+              </ul>
+            </div>
+            <div className="border-l-4 border-gray-200 pl-6">
+              <h3 className="font-sans text-xl font-semibold text-gray-900 mb-1">
                 Axiom Labs
               </h3>
               <p className="font-sans text-sm text-gray-500 mb-2">Founder • May 2025 - Present</p>
