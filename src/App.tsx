@@ -13,10 +13,9 @@ function RedirectHandler() {
     // Check if we're in a GitHub Pages redirect (/?/path format)
     const queryString = location.search
     if (queryString.startsWith('?/')) {
-      const path = queryString.slice(2).replace(/~and~/g, '&')
-      const newPath = path.split('&')[0] // Remove query params for now
-      if (newPath && newPath !== location.pathname) {
-        window.history.replaceState(null, '', `/Portfolio-Website${newPath}`)
+      const path = queryString.slice(2).replace(/~and~/g, '&').split('&')[0]
+      if (path && path !== location.pathname) {
+        window.history.replaceState(null, '', `/Portfolio-Website${path}`)
         window.location.reload()
       }
     }
